@@ -1,0 +1,20 @@
+NLP Algorithm for debate v1
+Goal:
+- Given a document, identify terms of art
+- takes in a word document that is verbatimized
+- Produces some kind of visual/textual report
+	- indictates the frequency of terms of art
+
+Steps of algo:
+1. Preprocessing
+	- Select Verbatim doc
+	- Parse tags vs cards
+	- clean data from cards and discard tags
+2. Evaluation
+	- Use YAKE on the combined data from all cards?
+	- Use YAKE on each card seperately then combine the results through some kind of averaging
+	- Use RAKE_NLTK on the combined data from all the cards?
+	- Use RAKE_NLTK on each card seperately then combine the results through some kind fo averaging
+
+3. Report
+	Summarize the top 20-30 keywords from each analysis
